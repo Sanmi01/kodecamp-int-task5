@@ -1,0 +1,50 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.planet.card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 12px 0px 0px 12px;
+    transition: transform .35s;
+}
+
+.planet.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.offcanvas {
+    margin-top: 16px;
+    border-radius: 32px 32px 0px 0px;
+}
+
+.offcanvas-title.h5 {
+    margin-top: 3.0rem;
+    font-weight: 800;
+font-size: 32px;
+line-height: 48px;
+color: #121C33;
+}
+
+.offcanvas-header .btn-close {
+    margin-top: -2rem !important;
+}
+
+.offcanvas-header .btn-close {
+    background-color: #d3d6de;
+    opacity: 1 !important;
+    margin-right: 2rem !important;
+}
+
+.planet-img-div {
+    width: 18rem;
+    border-radius: 20%;
+}
+
+.planet-img-div img {
+    width: 85%;
+    border-radius: 50%;
+}
