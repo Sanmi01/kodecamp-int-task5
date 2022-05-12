@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import Header from './layout/Header'
 import Footer from './layout/Footer'
-import Home from './pages/Home';
-import Planets from './pages/Planets';
-import Contact from './pages/Contact';
-import About from './pages/About';
+import Home from './pages/home/Home';
+import Planets from './pages/planets/Planets';
+import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
 import { Routes, Route } from 'react-router-dom';
 import { planetItems as PT } from './data';
 
 function App() {
-  const [planetItems, setPlanetItems] = useState(PT)
+  const [planetItems] = useState(PT)
   return (
 <div className="App d-flex vh-100 justify-content-between row">
     <Header />

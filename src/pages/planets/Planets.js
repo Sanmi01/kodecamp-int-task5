@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Offcanvas, Container } from "react-bootstrap";
-import Planet from '../component/Planet';
+import Planet from '../../component/Planet';
 import "./Planets.css"
 
 const Planets = ({planetItems}) => {
@@ -26,7 +26,7 @@ const Planets = ({planetItems}) => {
         </Offcanvas.Header>
         <Offcanvas.Body>
         <div className="planet-img-div m-2 p-2">
-        <img src={planetInfo.img} />
+        <img src={planetInfo.img} alt="" />
         </div>
           <p className="info">{planetInfo.info}</p>
           <div>

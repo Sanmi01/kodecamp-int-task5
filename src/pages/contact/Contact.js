@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import earth from "../assets/images/earth.jpg";
+import earth from "../../assets/images/earth.jpg";
 
 const Contact = () => {
     return (

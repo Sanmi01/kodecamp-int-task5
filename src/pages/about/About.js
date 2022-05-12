@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import solarImage2 from "../assets/images/solarSystem2.JPG";
+import solarImage2 from "../../assets/images/solarSystem2.JPG";
 
 const About = () => {
     return (
