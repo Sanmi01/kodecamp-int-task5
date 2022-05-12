@@ -14,7 +14,7 @@ function App() {
 <div className="App d-flex vh-100 justify-content-between row">
     <Header />
       <Routes>
-            <Route path='/' exact element={<Home />}/>
+            <Route path='/kodecamp-int-task5' exact element={<Home />}/>
             <Route path='/planets' element={<Planets planetItems={planetItems}  />}/>
             <Route path='/contact' element={<Contact />}/>
             <Route path='/about' element={<About />}/>
